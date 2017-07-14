@@ -1,0 +1,106 @@
+// 标题内容
+.nav_content{
+	width:100%;
+	height:90px;
+	background:#fff;
+	margin-top:40px;
+	&_main{
+		width:1200px;
+		height:100%;
+		margin:0 auto;
+		div{float:left}
+		.nav_left{
+			float:left;
+			width:190px;
+			height:80px;
+			cursor:pointer;
+				.index_logo{
+				width:180px;
+				height:80px;
+				padding-left: 10px;
+				display:block;
+				background-image: url("../../assets/logo1.png");
+				background-size: 70%;
+			    background-repeat: no-repeat;
+			    background-position: center;
+			}
+		}
+		
+		.nav_main{
+			margin-left: 29px;
+		    width: 450px;
+		    float: left;
+		    height: 100%;
+		    &_list{
+		    	text-align: center;
+		    	float:left;
+		    	line-height:85px;
+		    	font-size:16px;
+		    	cursor: pointer;
+		    	&_home{
+		    		width:70px;
+		    		height:100%;
+		    		display:block;
+
+		    	}
+		    	&_list{
+		    		width:86px;
+		    		height:100%;
+		    		display:block;
+		    	}
+		    	&_message{
+		    		width:102px;
+		    		height:100%;
+		    		display:block;
+		    	}
+		    	&_provider{
+		    		width:86px;
+		    		height:100%;
+		    		display:block;
+		    	}
+		    &:hover{
+		    	span{color:#00A1E7}
+		    	border-bottom:5px solid #00A1E7
+		    }
+		    }
+		}
+		.nav_search{
+			margin-top:32px;
+			width:300px;
+			float:right
+		}
+		.nav_btn{
+			margin-top:32px;
+			margin-left:30px;
+			float: right;
+			button{
+			border-color:transparent;
+			background-color: #15A2E4;
+			color:#fff;
+			font-size:15px;
+
+			}
+		}
+	}
+}
+.nav_btn .ant-btn{
+	padding:1px 15px;
+	span{line-height:25px;}
+}
+.main_list{
+	line-height:85px;
+	font-size:16px;
+	
+	 &:hover{
+		    	span{color:#00A1E7}
+		    	border-bottom:5px solid #00A1E7
+		    }
+}
+.ant-anchor-link{
+	line-height:85px;
+	font-size:16px;
+	padding:0 15px;
+}
+.ant-anchor-ink{display:none;}
+
+.anticon-search:before{font-size:18px;}
