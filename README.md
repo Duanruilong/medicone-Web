@@ -22,3 +22,9 @@
  
 > **还有很多可以优化。。。。!.** 
 
+
+
+有报错：
+> 1、slick-carousel@1.8.1 requires a peer of jquery@>=1.8.0 but none is installed. You must install peer dependencies yourself.
+
+解决方法： npm install slick-carousel
