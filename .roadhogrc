@@ -1,0 +1,24 @@
+{
+  "entry": "src/index.js",
+  "disableCSSModules": true,
+  "autoprefixer": null,
+  "proxy": null,
+  "extraBabelPlugins": [
+    "transform-runtime",
+    ["import", { "libraryName": "antd", "style": "css" }]
+  ],
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr"
+      ]
+    }
+  },
+  "proxy": {
+    "/medicone": {
+      "target": "http://118.178.188.76",
+      "changeOrigin": true,
+      "pathRewrite": { "^/medicone" : "/medicone" }
+    }
+  }
+}
