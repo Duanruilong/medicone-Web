@@ -1,4 +1,5 @@
 import fetch from 'dva/fetch';
+
 export default {
     convertObjToQueryString: function(obj) {
         var paramStr = '';

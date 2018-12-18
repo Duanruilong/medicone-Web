@@ -1,6 +1,7 @@
 import {login,loginOut,userInsert,userUpdate,getTel} from '../services/login';
 import { hashHistory } from 'dva/router';
 import auth from '../utils/auth';
+
 export default {
 	namespace: 'login',
 	state:{
@@ -11,7 +12,7 @@ export default {
         insertUserShowAlert:0,
         loginTelCheck:true,
         logupTelCheck:true,
-        userLocation:' ',   //定位
+        userLocation:' ',   // 定位
         Tellist:[]
 	},
 	effects:{
