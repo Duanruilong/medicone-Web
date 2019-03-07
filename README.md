@@ -2,7 +2,7 @@
 
 ![web](http://photocdn.sohu.com/20151022/Img423921839.jpg)
 
-### 基于React + Ant Design:smile::sparkles::+1::clap::smile:
+### 基于React + Ant Design + dva :smile::sparkles::+1::clap::smile:
 
 - :smile::shipit::sparkles::+1::clap:
 - 这是一个基于React + Ant Design开发的前端页面;
