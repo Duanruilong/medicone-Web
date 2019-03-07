@@ -14,12 +14,12 @@ function Products ({children,location,dispatch,login,companion,banner,product,ne
     product,
     need,
   }
-  
+
     return (
         <ProductList {...productsProps}/>
     );
   }
-  Products.propTypes = {
+  Products.propTypes = { // 判断数据类型
     login:PropTypes.object,
     companion:PropTypes.object,
     banner:PropTypes.object,
